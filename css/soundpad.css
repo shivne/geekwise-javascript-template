@@ -1,0 +1,45 @@
+body {
+  padding: none;
+  margin: 0;
+}
+.button {
+  background-color: tan;
+  border: 2px solid aqua;
+  padding: 85px;
+  margin: 5px;
+  margin-top: 5px;
+  outline: none;
+  position: static;
+}
+.button:active {
+  background-color: beige;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+.container {
+  height: 700px;
+  background-image: url('../img/blue.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 20px;
+}
+.container-fluid {
+  background-color: #000;
+  width: 787px;
+  height: 597px;
+  margin-left: 270px;
+  background-image: url('../img/blue.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*
+.row1 {
+  margin-left: 270px;
+}
+.row2 {
+  margin-left: 270px;
+}
+.row3 {
+  margin-left: 270px;
+}
+*/
