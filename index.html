@@ -1,12 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>My Web Page</title>
-  <link href="styles.css" rel="stylesheet"/>
+<title>Audio</title>
+<link href="css/soundpad.css" rel="stylesheet">
 </head>
 <body>
-  <p id="counter">Clicks: 0</p>
-  <script src="script.js"></script>
+
+      <!--*****ONCLICK SOUNDS*****-->
+<div class="container">
+  <div class="container-fluid">
+    <div class="row row1"> <!--BEGIN ROW 1-->
+      <input type="button" id="key1" value="C" class="button" style="background-color: #180463" onclick="play('audio1')">
+      <audio id="audio1" src="audio/music_notes/c_note.ogg"></audio>
+
+      <input type="button" id="key2" value="D" class="button" style="background-color: #180463" onclick="play('audio2')">
+      <audio id="audio2" src="audio/music_notes/d_note.ogg"></audio>
+
+      <input type="button" id="key3" value="E" class="button" style="background-color: #180463" onclick="play('audio3')">
+      <audio id="audio3" src="audio/music_notes/e_note.ogg"></audio>
+
+      <input type="button" id="key4" value="F" class="button" style="background-color: #180463" onclick="play('audio4')">
+      <audio id="audio4" src="audio/music_notes/f_note.ogg"></audio>
+    </div> <!--END ROW 1-->
+
+    <div class="row row2"> <!--BEGIN ROW 2-->
+      <input type="button" id="key5" value="G" class="button" style="background-color: #180463" onclick="play('audio5')">
+      <audio id="audio5" src="audio/music_notes/g_note.ogg"></audio>
+
+      <input type="button" id="key6" value="A" class="button" style="background-color: #180463" onclick="play('audio6')">
+      <audio id="audio6" src="audio/music_notes/a_note.ogg"></audio>
+
+      <input type="button" id="key7" value="B" class="button" style="background-color: #180463" onclick="play('audio7')">
+      <audio id="audio7" src="audio/music_notes/b_note.ogg" ></audio>
+
+      <input type="button" id="key8" value="C" class="button" style="background-color: #180463" onclick="play('audio8')">
+      <audio id="audio8" src="audio/music_notes/c_note.wav"></audio>
+    </div> <!--END ROW 2-->
+
+    <div class="row row3"> <!--BEGIN ROW 3-->
+      <input type="button" id="key9" value="D" class="button" style="background-color: #180463" onclick="play('audio9')">
+      <audio id="audio9" src="audio/music_notes/d_note.wav"></audio>
+
+      <input type="button" id="key10" value="E" class="button" style="background-color: #180463" onclick="play('audio10')">
+      <audio id="audio10" src="audio/music_notes/e_note.wav"></audio>
+
+      <input type="button" id="key11" value="F" class="button" style="background-color: #180463" onclick="play('audio11')">
+      <audio id="audio11" src="audio/music_notes/f_note.wav"></audio>
+
+      <input type="button" id="key12" value="G" class="button" style="background-color: #180463" onclick="play('audio12')">
+      <audio id="audio12" src="audio/music_notes/g_note.wav"></audio>
+    </div> <!--END ROW 3-->
+  </div>
+</div>
+
+      <!--***** Javascript***** -->
+
+<script src="js/jquery-2.2.3.js"></script>
+<script src="js/soundpad.js"></script>
+
 </body>
 </html>
